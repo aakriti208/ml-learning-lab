@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Datasets (can be large)
+datasets/**/*.csv
+datasets/**/*.txt
+datasets/**/*.json
+datasets/**/*.zip
+datasets/**/*.tar.gz
+!datasets/**/.gitkeep
+
+# Trained models (can be large)
+results/models/*.pkl
+results/models/*.h5
+results/models/*.pt
+results/models/*.pth
+results/models/*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Weights & Biases
+wandb/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
